@@ -660,12 +660,11 @@ background-color:  #31D0AA;
 
 .footer-soc-svg{
     fill: #F4F4FD;
-}
-
-.footer-bottom{
-    border-radius: 24px;
     
 }
+
+
+
 
 .footer-item-text{
     margin-bottom: 16px;
@@ -674,11 +673,13 @@ background-color:  #31D0AA;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #fff;
+        
 
 }
 
 .footer-form{
     display: flex;
+    gap: 24px;
     
 }
 
@@ -712,9 +713,14 @@ background-color:  #31D0AA;
 
 .input-btn{
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
         height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background: #4d5ae5;
+        border: none;
+        border-radius: 4px;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
@@ -723,6 +729,9 @@ background-color:  #31D0AA;
             color: #fff;
             margin: 0 auto;
             justify-content: space-around;
+}
+.footer-button-icon{
+    margin-left: 16px;
 }
         
 /*---------------------------*/
