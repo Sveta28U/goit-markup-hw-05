@@ -732,6 +732,7 @@ background-color:  #31D0AA;
 }
 .footer-button-icon{
     margin-left: 16px;
+    fill: #fff;
 }
         
 /*---------------------------*/
@@ -747,7 +748,7 @@ background-color:  #31D0AA;
     opacity: 0;
     visibility: hidden;
     position: none;
-    transition: opacity 250em cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .is-open{
@@ -788,7 +789,7 @@ background-color:  #31D0AA;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: backgroud-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-btn:hover,
