@@ -476,8 +476,9 @@
           </ul>
         </div>
         <div class="footer-bottom">
+          <p class="footer-item-text">Subscribe</p>
           <form class="footer-form">
-            <label class="imput-title">Subscribe</label>
+            <label class="imput-title"></label>
             <input
               type="email"
               name="footer-email"
@@ -523,7 +524,7 @@
             <label for="user-phone" class="modal-label">Phone</label>
             <div class="modal-input-wrap">
               <input
-                type="phone"
+                type="text"
                 name="user-phone"
                 class="modal-input"
                 placeholder=""
@@ -549,14 +550,16 @@
               </svg>
             </div>
           </div>
-          <label for="user-comment" class="modal-label">Comment</label>
-          <textarea
-            name="user-comment"
-            id="user-comment"
-            class="modal-text"
-            placeholder="Text input"
-          ></textarea>
-          <di v class="modal-checkbox">
+          <div class="modal-field-checkbox">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              class="modal-text"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-checkbox">
             <input
               type="checkbox"
               name="policy"
@@ -573,7 +576,7 @@
               I accept the terms and conditions of the
               <a href="">Privacy Policy</a></label
             >
-          </di>
+          </div>
           <button type="submit" class="checkbox-btn">Send</button>
         </form>
       </div>
