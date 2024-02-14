@@ -792,6 +792,11 @@ background-color:  #31D0AA;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-close-icon{
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 .modal-close-btn:hover,
 .modal-close-btn:focus{
     background-color: #404bbf;
@@ -873,6 +878,10 @@ background-color:  #31D0AA;
     
 }
 
+.modal-text:focus{
+    background-color: #4D5AE5;
+}
+
 .modal-text{
         width: 100%;
         height: 120px;
@@ -896,7 +905,6 @@ background-color:  #31D0AA;
         letter-spacing: 0.04em;
         margin-bottom: 4px;
         color: #8e8f99;
-        display: flex;
         align-items: center;
        
      
@@ -907,19 +915,6 @@ background-color:  #31D0AA;
 }
 
 
-.check-text span {
-    width: 16px;
-    height: 16px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    margin-right: 8px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    fill: transparent;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border 250ms cubic-bezier(0.4, 0, 0.2, 1),fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
     .modal-checkbox-policy{
         color: #4d5ae5;
     }
@@ -929,8 +924,15 @@ background-color:  #31D0AA;
         line-height: 1.17;
         letter-spacing: 0.04em;
         color: #8e8f99;
-        display: inline-flex;
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        width: 16px;
+            height: 16px;
+            border: 1px solid rgba(46, 47, 66, 0.4);
+            margin-right: 8px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            fill: transparent;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  }
